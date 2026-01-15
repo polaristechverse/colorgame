@@ -3,7 +3,7 @@ labels:
 Name: colorgame
 replicaCount: 3
 image:
-  repository: chaitanyamanikumar/colorgame
+  repository: chaitanyamanikumar/testcontainer
   tag: "v1"
 Service:
   labels:

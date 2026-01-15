@@ -1,0 +1,14 @@
+labels:
+  app: colorgame
+Name: colorgame
+replicaCount: 3
+image:
+  repository: chaitanyamanikumar/colorgame
+  tag: "v1"
+Service:
+  labels:
+    app: colorgame
+  port: 80
+  protocol: TCP
+  nodePort: 30100
+  type: NodePort
